@@ -344,7 +344,7 @@
         class="fixed top-0 left-0 right-0 z-50 transition-all duration-700 ease-out"
         :class="scrolled ? 'bg-bg/60 backdrop-blur-xl border-b border-border/60 py-4' : 'bg-transparent py-6 md:py-8'"
     >
-        <div class="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-14 grid grid-cols-[auto_1fr_auto] md:grid-cols-3 items-center gap-4">
+        <div class="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-14 grid grid-cols-[auto_1fr_auto] items-center gap-4">
 
             <!-- Logo -->
             <a href="index.html" class="group leading-none justify-self-start">
@@ -356,7 +356,7 @@
             </a>
 
             <!-- Desktop Nav -->
-            <nav class="hidden md:flex items-center justify-center gap-4 lg:gap-8 col-start-2">
+            <nav class="hidden md:flex items-center gap-4 lg:gap-8 col-start-2 justify-self-end mr-4 lg:mr-8">
                 <a href="about.html" class="group relative text-xs lg:text-sm tracking-widest uppercase text-ink/80 hover:text-ink transition-colors">
                     <span x-text="lang === 'en' ? 'About' : '略歴'"></span>
                     <span class="absolute -bottom-1 left-0 w-0 h-px bg-clay group-hover:w-full transition-all duration-500"></span>
@@ -880,7 +880,7 @@
             <div class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-5 text-[10px] tracking-widest-2 uppercase text-muted text-center">
                 <span>Copyright © 2026 Shozo Michikawa · All Rights Reserved</span>
                 <span class="hidden md:inline text-border">·</span>
-                <span>Seto, Aichi · Japan</span>
+                <span>Sasama, Shizuoka · Japan</span>
             </div>
         </div>
     </footer>
